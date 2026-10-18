@@ -84,16 +84,6 @@ Is the Markdown consistent with RMarkdown best practices?
 
 Key response: ChatGPT said GitHub Markdown and R Markdown are not the same, and recommended a YAML header and executable `{r}` chunks. Its own example placed a `{r}` chunk inside a plain fenced block, which would close the outer block early, so I did not copy it.
 
-## Claude requests (summarized)
-
-Claude requests were made in conversation rather than with fixed prompts. In summary, I asked Claude to:
-
-1. Explain what the assignment needs and what I had to provide.
-2. Design a small synthetic R project (data generator, analysis script, folder layout) and the ChatGPT prompts to run.
-3. Turn the ChatGPT README draft into the final `README.md` using the real script results.
-4. Write `analyze_scores.Rmd` from the script and ChatGPT's formatting suggestions.
-5. Draft `Reflection.md` and this appendix.
-
 ## Verification and improvement log
 
 | Check | How | Finding | Action |
