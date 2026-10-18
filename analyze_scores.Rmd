@@ -1,0 +1,111 @@
+---
+title: "Documenting analyze_scores.R"
+author: "tasveerkanwal"
+date: "`r format(Sys.Date(), '%d %B %Y')`"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+    highlight: tango
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, fig.width = 7, fig.height = 4.5)
+```
+
+> **AI Assistance Declaration**: I used ChatGPT (GPT 5.6 Luna) to get formatting suggestions and code block examples for this document, and Claude (Sonnet 5.5, Anthropic) to help draft the R scripts and review this file. Prompts used: the three Step 3 prompts are listed at the bottom of this file and all prompts are in `Appendix.md`. I verified outputs using RStudio by knitting this file and checking that the headers, tables, plots and code chunks render, and by comparing the printed results with the output of `scripts/analyze_scores.R`. All final calculations are done by myself. I am responsible for the accuracy and originality of this work.
+
+# Purpose
+
+`scripts/analyze_scores.R` summarizes a synthetic dataset of 300 students. It reports the number of students and the mean and median final score for each course, then draws two plots: the distribution of final scores, and study hours against final score with a regression line.
+
+# Inputs
+
+The script reads one file, `data/student_scores.csv`, created by `scripts/generate_data.R`.
+
+| Column        | Description                                         |
+| ------------- | --------------------------------------------------- |
+| `student_id`  | Unique student identifier                           |
+| `course`      | Statistics, Databases, Programming or Data Visualization |
+| `study_hours` | Weekly study hours                                  |
+| `attendance`  | Attendance percentage                               |
+| `final_score` | Final score out of 100                              |
+
+# Outputs
+
+| File                           | Description                                       |
+| ------------------------------ | ------------------------------------------------- |
+| `outputs/course_summary.csv`   | Students, mean score and median score per course  |
+| `outputs/score_distribution.png` | Histogram of final scores                       |
+| `outputs/hours_vs_score.png`   | Scatter plot of study hours against final score   |
+
+# Dependencies
+
+```{r packages}
+library(readr)
+library(dplyr)
+library(ggplot2)
+```
+
+# Walkthrough
+
+## Load the data
+
+```{r load-data}
+scores <- read_csv("data/student_scores.csv", show_col_types = FALSE)
+glimpse(scores)
+```
+
+## Summarize scores by course
+
+```{r course-summary}
+course_summary <- scores |>
+  group_by(course) |>
+  summarise(
+    students = n(),
+    mean_score = round(mean(final_score), 1),
+    median_score = round(median(final_score), 1),
+    mean_study_hours = round(mean(study_hours), 1),
+    .groups = "drop"
+  ) |>
+  arrange(desc(mean_score))
+
+knitr::kable(course_summary)
+```
+
+## Distribution of final scores
+
+```{r score-distribution}
+ggplot(scores, aes(x = final_score)) +
+  geom_histogram(binwidth = 5, fill = "steelblue", colour = "white") +
+  labs(title = "Distribution of Final Scores", x = "Final score", y = "Number of students") +
+  theme_minimal()
+```
+
+## Study hours and final score
+
+```{r hours-vs-score}
+ggplot(scores, aes(x = study_hours, y = final_score)) +
+  geom_point(alpha = 0.5, colour = "steelblue") +
+  geom_smooth(method = "lm", formula = y ~ x, se = FALSE, colour = "firebrick") +
+  labs(title = "Study Hours vs Final Score", x = "Weekly study hours", y = "Final score") +
+  theme_minimal()
+```
+
+```{r correlation}
+round(cor(scores$study_hours, scores$final_score), 2)
+```
+
+# How to Run
+
+The script itself saves the plots and the summary table. Run it from the project root:
+
+```{r run-script, eval=FALSE}
+source("scripts/analyze_scores.R")
+```
+
+# AI Prompts Used for This File
+
+1. "Here's my R script description. [...] Suggest Markdown formatting and code block examples."
+2. "Add syntax highlighting and improve section organization (e.g., # Purpose, ## Inputs, ## Outputs)."
+3. "Is the Markdown consistent with RMarkdown best practices?"
