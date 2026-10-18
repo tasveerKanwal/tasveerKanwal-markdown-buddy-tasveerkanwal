@@ -1,0 +1,301 @@
+"student_id","course","study_hours","attendance","final_score"
+"S001","Statistics",10.7,77.6,77.2
+"S002","Statistics",10.6,84.6,82.1
+"S003","Statistics",13,77.1,80.9
+"S004","Databases",7.5,88,69.4
+"S005","Statistics",16.9,67.8,95.1
+"S006","Programming",3,66.9,59.3
+"S007","Programming",14.1,93.2,88.5
+"S008","Data Visualization",6.3,84.9,72.2
+"S009","Data Visualization",14.6,68,82.8
+"S010","Data Visualization",16.7,94.5,100
+"S011","Statistics",17.6,68.9,89.6
+"S012","Programming",15.1,80.9,90.8
+"S013","Data Visualization",5.6,67.7,66.4
+"S014","Databases",15.8,85.7,91.2
+"S015","Databases",6.1,98.1,74.4
+"S016","Data Visualization",16.9,84.4,91.2
+"S017","Programming",10.4,88.4,63.9
+"S018","Programming",9.5,84,67.9
+"S019","Statistics",13,89,95.5
+"S020","Databases",12.6,60.4,86.3
+"S021","Statistics",18.5,61,87.2
+"S022","Data Visualization",9.4,80.4,56.7
+"S023","Databases",4.7,74.1,55.6
+"S024","Databases",19,87.1,85.2
+"S025","Databases",4.6,95.1,54.1
+"S026","Databases",14,74,86.3
+"S027","Databases",15.8,96.7,89.8
+"S028","Statistics",13.1,95.9,91.6
+"S029","Statistics",7.5,60.9,55.7
+"S030","Data Visualization",15.2,98.1,82
+"S031","Data Visualization",8.9,60.4,70.5
+"S032","Statistics",14.4,78.2,89.3
+"S033","Data Visualization",14.8,63.4,79.2
+"S034","Programming",17.3,95.1,86.3
+"S035","Data Visualization",6.1,63.4,72.2
+"S036","Programming",17,90.2,100
+"S037","Programming",5.5,90.8,71.6
+"S038","Databases",11.3,85.4,81.8
+"S039","Statistics",8.6,87,64.2
+"S040","Data Visualization",12.6,81.3,66.8
+"S041","Data Visualization",7.6,98.5,84.2
+"S042","Databases",11.4,86.5,79.2
+"S043","Databases",5.7,83.1,59.2
+"S044","Statistics",2.8,80.1,66.3
+"S045","Data Visualization",16.4,74.6,82.3
+"S046","Statistics",2.2,97.1,56.5
+"S047","Statistics",7,97.9,72.6
+"S048","Statistics",6.8,80.2,57.6
+"S049","Data Visualization",11,91.2,74.4
+"S050","Statistics",6.6,73.8,57.9
+"S051","Statistics",11.5,90.4,85.4
+"S052","Statistics",19.8,87.2,98
+"S053","Databases",1.6,94.3,55.6
+"S054","Statistics",1.9,60.2,59.1
+"S055","Data Visualization",13.1,76.6,78.9
+"S056","Programming",18,61.4,85.6
+"S057","Programming",18.7,85.7,94.1
+"S058","Data Visualization",1.9,81.5,51.6
+"S059","Databases",10.4,94.4,77.1
+"S060","Databases",15.2,99.1,93.8
+"S061","Statistics",5.2,61,59.9
+"S062","Statistics",6,74.1,72.8
+"S063","Programming",18.2,80.2,87.5
+"S064","Statistics",4.1,67.2,55.6
+"S065","Data Visualization",12.5,67.7,84.1
+"S066","Data Visualization",5.2,76.4,54.5
+"S067","Programming",17,67.4,77.4
+"S068","Statistics",18.7,96.6,99.3
+"S069","Data Visualization",12.1,68.8,72.9
+"S070","Statistics",18.3,91,87.6
+"S071","Programming",14.9,85.6,79.3
+"S072","Programming",11.5,93.1,83.7
+"S073","Statistics",18.6,79.7,87.7
+"S074","Statistics",10.4,79.3,73.5
+"S075","Programming",15.2,65.3,76.8
+"S076","Statistics",3.5,91,63.5
+"S077","Programming",13.3,88.9,78
+"S078","Data Visualization",2.6,96.2,62.7
+"S079","Statistics",5.7,87.5,61.8
+"S080","Databases",4.7,99.7,76.4
+"S081","Data Visualization",14.7,87.3,87.2
+"S082","Statistics",18.1,66.1,76.9
+"S083","Programming",7.4,85.6,76.6
+"S084","Programming",11.1,75.6,74.1
+"S085","Data Visualization",19.7,95.5,98.8
+"S086","Statistics",14.1,78.1,90
+"S087","Data Visualization",13,70,80
+"S088","Data Visualization",5.3,72.4,76.5
+"S089","Databases",5,71,57
+"S090","Statistics",10.8,65.3,73.9
+"S091","Data Visualization",19,90.8,97.8
+"S092","Statistics",15.7,75.3,89.4
+"S093","Programming",7.1,89.1,73.4
+"S094","Data Visualization",1.5,72.4,56.1
+"S095","Programming",2.1,94.7,51.1
+"S096","Databases",13.8,88.4,80.6
+"S097","Data Visualization",3.8,79.8,59.7
+"S098","Data Visualization",16.1,66.3,80.7
+"S099","Databases",10.8,89.1,78.5
+"S100","Statistics",1.4,73.2,47.9
+"S101","Data Visualization",7.3,94.8,75.5
+"S102","Programming",8.7,79.5,71.3
+"S103","Programming",13.9,69.6,82.8
+"S104","Statistics",3.8,68.3,55.7
+"S105","Statistics",8.8,98.4,69.9
+"S106","Data Visualization",2.7,79.4,65.6
+"S107","Databases",1.6,69.3,47.2
+"S108","Statistics",9.6,86.8,68.7
+"S109","Statistics",8.3,62,61.5
+"S110","Programming",15.2,77.6,94.9
+"S111","Data Visualization",19.3,78,92.4
+"S112","Programming",10.3,88.8,82.1
+"S113","Statistics",7.3,83.2,61.5
+"S114","Data Visualization",13.7,64.8,75.6
+"S115","Statistics",6.3,69.9,61.9
+"S116","Statistics",5.2,96.6,69.7
+"S117","Data Visualization",9.6,66.2,67.5
+"S118","Statistics",6.3,73.7,67.8
+"S119","Statistics",19.1,70,91.7
+"S120","Statistics",8.4,87.4,72
+"S121","Databases",4.6,94.8,76.8
+"S122","Data Visualization",2,78.8,51.1
+"S123","Programming",15.9,60.7,88
+"S124","Databases",9.1,82.7,78.1
+"S125","Statistics",6.1,60.7,70.6
+"S126","Programming",6.6,93.8,70.2
+"S127","Statistics",8.1,63.9,67.1
+"S128","Statistics",7.9,68.5,67
+"S129","Programming",7.9,94.3,75.5
+"S130","Databases",15.7,73,87.8
+"S131","Statistics",15.9,92.6,86.8
+"S132","Databases",7.7,72.3,71.7
+"S133","Data Visualization",14.8,68,84.7
+"S134","Databases",7.2,65,68
+"S135","Statistics",17.3,80.7,100
+"S136","Data Visualization",9.7,90.3,76.1
+"S137","Databases",17.3,89.3,87.8
+"S138","Data Visualization",8.4,62.2,68.5
+"S139","Statistics",19.7,87.4,94.2
+"S140","Databases",6,86.1,60.8
+"S141","Data Visualization",11,88.1,74.6
+"S142","Statistics",6.6,66.4,63.5
+"S143","Programming",1.1,83.1,59.9
+"S144","Programming",4.9,66.4,61.2
+"S145","Statistics",6.6,85.1,61.6
+"S146","Statistics",13.1,80.6,79
+"S147","Statistics",5.2,63,49.9
+"S148","Statistics",11.6,97.8,78.9
+"S149","Data Visualization",8.3,99.3,65.3
+"S150","Statistics",1.4,94.7,48.7
+"S151","Statistics",17.6,77.1,94.9
+"S152","Data Visualization",11,66.4,71.4
+"S153","Programming",6.4,87.5,66.6
+"S154","Statistics",14.5,82.8,86.5
+"S155","Databases",5,63.5,56
+"S156","Data Visualization",9.8,80.8,71.5
+"S157","Data Visualization",14.1,74.3,77.4
+"S158","Data Visualization",14.6,62.9,77.6
+"S159","Statistics",15.4,91,80.8
+"S160","Programming",16.8,69.7,90.6
+"S161","Databases",8.7,82.3,74.3
+"S162","Databases",17.2,72.1,82.5
+"S163","Statistics",13.5,84.1,92.2
+"S164","Databases",1.6,97,56.4
+"S165","Programming",14.1,63.8,77
+"S166","Databases",9.3,71.3,60.7
+"S167","Statistics",13.2,87.5,81.7
+"S168","Databases",4.5,94.4,58.3
+"S169","Statistics",6.4,72.2,65.6
+"S170","Programming",11,67.6,73.9
+"S171","Data Visualization",15.6,61.9,86.9
+"S172","Databases",8.4,97.3,68.9
+"S173","Databases",1.2,89.3,45.5
+"S174","Statistics",7.6,66,67.3
+"S175","Databases",14.9,80.3,86.5
+"S176","Databases",17.9,70,96.1
+"S177","Programming",13.5,69.3,77.6
+"S178","Data Visualization",1.7,88.8,59.5
+"S179","Data Visualization",19.6,84.3,97.7
+"S180","Data Visualization",16.1,87.3,85
+"S181","Data Visualization",12.5,61.3,65.4
+"S182","Statistics",10.8,94.4,73.5
+"S183","Databases",11.3,99.2,80.6
+"S184","Statistics",9.3,61.2,68.5
+"S185","Data Visualization",17.8,60.4,78
+"S186","Programming",17.6,93.3,91.8
+"S187","Statistics",15.6,85.1,79.6
+"S188","Databases",12,72.5,80.4
+"S189","Data Visualization",10.5,76.4,73.8
+"S190","Databases",14.8,77.4,80
+"S191","Programming",10.3,64.8,74.3
+"S192","Programming",12.4,65.3,70.1
+"S193","Data Visualization",11.5,85.2,84.3
+"S194","Statistics",14.8,64.7,75.9
+"S195","Statistics",3.7,73.7,47
+"S196","Data Visualization",7.4,88.9,63.6
+"S197","Data Visualization",17.9,97.5,91.7
+"S198","Data Visualization",18,83.8,90.3
+"S199","Data Visualization",6.6,65.4,57.8
+"S200","Data Visualization",18.4,73.7,87.9
+"S201","Data Visualization",8.3,96.4,74.2
+"S202","Programming",14.2,73.1,82.4
+"S203","Programming",15.3,88.4,87
+"S204","Databases",4.3,91.8,57.3
+"S205","Data Visualization",7.6,65.8,66.2
+"S206","Databases",2.2,96.9,67.6
+"S207","Databases",9.7,77,66.9
+"S208","Databases",13.6,96.3,95.7
+"S209","Statistics",18.8,67.3,95
+"S210","Statistics",12.2,92.6,72.8
+"S211","Data Visualization",6,60.9,54.6
+"S212","Data Visualization",10.8,93.4,75.6
+"S213","Programming",8.8,98.9,74.1
+"S214","Statistics",9.8,88.5,68.8
+"S215","Programming",18.7,97.7,91.8
+"S216","Programming",6.7,91.6,70.3
+"S217","Statistics",8,82.2,70.7
+"S218","Databases",16.2,63.2,78.8
+"S219","Programming",6.5,63.1,59.1
+"S220","Programming",12.1,85,73.1
+"S221","Programming",12.4,87.8,64.2
+"S222","Statistics",19.9,69.4,89.1
+"S223","Databases",14.9,66.5,77.2
+"S224","Databases",15.9,72.8,83.9
+"S225","Programming",5.9,89,59.9
+"S226","Programming",15.1,99,90.9
+"S227","Programming",9.5,92.3,65.9
+"S228","Data Visualization",6,69,71.8
+"S229","Databases",9.6,83,66
+"S230","Data Visualization",9.3,64.9,71.1
+"S231","Data Visualization",4.2,78.9,71.4
+"S232","Databases",5.6,77.7,58.7
+"S233","Data Visualization",10.6,94.4,75
+"S234","Databases",2.3,84.3,52.8
+"S235","Programming",19.1,94.3,96.5
+"S236","Databases",4.2,97.1,67
+"S237","Data Visualization",16.4,86.5,79.2
+"S238","Statistics",8.3,92.1,65.6
+"S239","Data Visualization",5.4,78,54.1
+"S240","Databases",3.9,83.7,62.9
+"S241","Statistics",13.1,93,84.6
+"S242","Statistics",15.6,95,84.1
+"S243","Databases",8.6,83.2,64.4
+"S244","Data Visualization",16.8,94.9,81.1
+"S245","Databases",9.3,97,79
+"S246","Databases",5.7,83.3,59.7
+"S247","Statistics",16.4,64,88.2
+"S248","Databases",6.5,84.6,78.2
+"S249","Databases",14.8,78.7,91.4
+"S250","Databases",1.9,64.4,47.1
+"S251","Data Visualization",16.6,94.6,97.3
+"S252","Databases",3.1,61.2,50
+"S253","Databases",13.9,69.8,81.3
+"S254","Databases",1.7,79.6,55.6
+"S255","Programming",5,61.7,61.6
+"S256","Statistics",7.9,89,70.2
+"S257","Data Visualization",6.9,88.6,69.6
+"S258","Statistics",18.2,84.3,95.7
+"S259","Programming",3.1,71,43.3
+"S260","Programming",7,81.7,65.1
+"S261","Databases",14.9,72.5,84.6
+"S262","Statistics",16.4,73.7,87.1
+"S263","Data Visualization",18.3,91.2,94.3
+"S264","Statistics",8.5,74.3,78.9
+"S265","Databases",2,99.3,58.5
+"S266","Programming",8.4,83,70.6
+"S267","Statistics",11.1,80.7,74.8
+"S268","Programming",12.4,70.7,90.5
+"S269","Statistics",14.2,93.1,81.1
+"S270","Statistics",1.7,87.9,62.9
+"S271","Data Visualization",8.9,60.7,73.5
+"S272","Data Visualization",15,98.3,83.2
+"S273","Databases",4.9,81.4,69.5
+"S274","Databases",2.1,68.1,56.8
+"S275","Programming",4,61.6,62.2
+"S276","Programming",2.7,83.3,47.1
+"S277","Databases",18.1,61.8,82.5
+"S278","Data Visualization",10.4,83.2,72.2
+"S279","Databases",8.9,96.8,75.1
+"S280","Data Visualization",12.8,71.7,77.1
+"S281","Data Visualization",17.8,90.3,91.3
+"S282","Data Visualization",13.6,88.7,86.3
+"S283","Databases",5.9,88.7,71.2
+"S284","Data Visualization",4.1,60.6,66.1
+"S285","Statistics",18.1,71.9,92.8
+"S286","Data Visualization",1.9,76.5,47.5
+"S287","Statistics",14.4,64,71.2
+"S288","Databases",15.3,71.7,91
+"S289","Programming",10.7,86.7,73.5
+"S290","Statistics",10.8,70.6,75
+"S291","Statistics",17.7,65.2,89.4
+"S292","Databases",6.4,60.4,65.2
+"S293","Databases",7.8,99.7,69.6
+"S294","Data Visualization",8.4,72.5,66
+"S295","Databases",7.8,81.2,71
+"S296","Programming",2.2,88.9,52.9
+"S297","Programming",10.4,85,73.5
+"S298","Data Visualization",19.6,75.2,89.7
+"S299","Statistics",9.7,62.3,62.2
+"S300","Programming",18.8,79.6,93.3
